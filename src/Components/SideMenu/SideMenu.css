@@ -23,3 +23,13 @@
 .disp-none{
   display: none;
 }
+.menu-list{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+.side-icon{
+  color: #3f918d;
+}
+.anticon {
+  color: #3f918d !important;
+}

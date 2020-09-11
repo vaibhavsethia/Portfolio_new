@@ -29,14 +29,23 @@ export class App extends Component {
     });
   }
 
+  componentDidMount(){
+    if(Number(window.screen.width) < 700){
+      this.setState({
+        isCollapsed: true,
+      })
+    }
+  }
+
   render() {
     return (
       <div>
         <Hero View={this.BringInView}></Hero>
-        <Layout  style={{ minHeight: '100vh' }}>
+        <Layout style={{ minHeight: '100vh' }}>
           <Sider width={300} collapsible collapsed={this.state.isCollapsed} onCollapse={this.onCollapse}>
           <SideMenu collapsed={this.state.isCollapsed} />
           </Sider>
+
         </Layout>
       </div>
     )

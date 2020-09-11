@@ -2,6 +2,7 @@ import { Button } from "antd";
 import React, { Component } from "react";
 import Particles from "react-particles-js";
 import { DownOutlined, RightOutlined } from "@ant-design/icons";
+import Fade from "react-reveal/Fade";
 
 import "./Hero.css";
 
@@ -57,13 +58,14 @@ export class Hero extends Component {
           }}
         />
         <div className="hero-content tc">
-          Hello, I'm <span className="hero-content-2">Vaibhav Sethia</span>,{" "}
-          <br /> I'm a full-stack developer.
-          <br />
+          <Fade left big cascade>
+            Hello, I'm <span className="hero-content-2">Vaibhav Sethia</span>
+          </Fade>
+          <Fade right big cascade>I'm a full-stack developer.</Fade>
           <Button onClick={this.props.View}>
             <span className="button-text">View My Work</span>
-            <RightOutlined className="button-right"/>
-            <DownOutlined className="button-down"/>
+            <RightOutlined className="button-right" />
+            <DownOutlined className="button-down" />
           </Button>
         </div>
       </div>

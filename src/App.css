@@ -15,6 +15,7 @@
   color: #bebebe !important;
 }
 .ant-layout-sider {
+  border-right: 2px solid #3f918d !important;
   position: relative;
   min-width: 0;
   background: rgb(44, 44, 44) !important;
@@ -28,8 +29,10 @@
 .ant-menu-dark .ant-menu-item:hover, .ant-menu-dark .ant-menu-item-active, .ant-menu-dark .ant-menu-submenu-active, .ant-menu-dark .ant-menu-submenu-open, .ant-menu-dark .ant-menu-submenu-selected, .ant-menu-dark .ant-menu-submenu-title:hover {
   color: #bebebe !important;
   background: rgb(17, 17, 17) !important;
+  border-right: 2px solid #3f918d !important;
 }
 .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  border-right: 2px solid #3f918d !important;
   background-color: black;
   background: rgb(17, 17, 17) !important;
 }
