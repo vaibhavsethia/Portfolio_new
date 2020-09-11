@@ -3,11 +3,12 @@ import { Layout } from 'antd';
 import { Switch, Route } from "react-router-dom";
 
 import SideMenu from './Components/SideMenu'
+import Hero from './Components/Hero';
+import Footer from './Components/Footer'
 
 import './App.css';
-import Hero from './Components/Hero';
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Content, Sider } = Layout;
 
 export class App extends Component {
   constructor(props) {
@@ -43,9 +44,14 @@ export class App extends Component {
         <Hero View={this.BringInView}></Hero>
         <Layout style={{ minHeight: '100vh' }}>
           <Sider width={300} collapsible collapsed={this.state.isCollapsed} onCollapse={this.onCollapse}>
-          <SideMenu collapsed={this.state.isCollapsed} />
+            <SideMenu collapsed={this.state.isCollapsed} />
           </Sider>
+          <Content>
+            <Switch>
 
+            </Switch>
+          </Content>
+          <Footer />
         </Layout>
       </div>
     )
