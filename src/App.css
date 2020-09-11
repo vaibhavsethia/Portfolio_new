@@ -8,6 +8,7 @@
   background: #fff;
 }
 .ant-layout-sider-trigger {
+  position: relative !important;
   background: rgb(17, 17, 17) !important;
   transition: all 1.2s !important;
   -webkit-transition: all 1.2s !important;
@@ -29,5 +30,6 @@
   background: rgb(17, 17, 17) !important;
 }
 .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: black;
   background: rgb(17, 17, 17) !important;
 }

@@ -1,0 +1,42 @@
+.bckgrd{
+  background: rgb(17, 17, 17);
+}
+.hero-content{
+  min-width: 100vw;
+  position: absolute;
+  color: #bebebe;
+  top: 35%;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+}
+.hero-content-2{
+  color:  #3f918d;
+  font-weight: 500;
+  font-weight: 45px;
+}
+.ant-btn:hover{
+  color: white !important;
+  background: #3f918d !important;
+  border-color: white !important;
+}
+.ant-btn {
+  height: 39px !important;
+  font-family: 'Work Sans', sans-serif !important;
+  font-weight: 300 !important;
+  padding: 4px 15px;
+  font-size: 20px !important;
+  border-radius: 5px !important;
+  background: transparent !important;
+  color: #bebebe !important;
+  border-color: #bebebe !important;
+}
+.button-down{
+  display: none !important;
+}
+.ant-btn:hover .button-right{
+  display: none !important;
+}
+.ant-btn:hover .button-down{
+  display: unset !important;
+}
