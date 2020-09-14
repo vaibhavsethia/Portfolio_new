@@ -28,7 +28,7 @@ export class App extends Component {
 
   BringInView = () => {
     window.scrollBy({
-      top: 1200,
+      top: 830,
       behavior: "smooth",
     });
   };

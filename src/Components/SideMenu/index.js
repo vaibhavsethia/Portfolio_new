@@ -9,7 +9,7 @@ import {
 import { Image, Menu } from "antd";
 import Fade from "react-reveal/Fade";
 
-import Img from "../../Images/Image_1.jpeg";
+import Img from "../../Images/Profile/Image_1.jpeg";
 
 import "./SideMenu.css";
 
