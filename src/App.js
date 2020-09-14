@@ -57,7 +57,7 @@ export class App extends Component {
           <Layout>
             <Content>
               <Switch>
-                <Route exact path="/" render={(props) => (<About />)} />
+                <Route exact path="/" component={About} />
                 <Route exact path="/blog" render={(props) => (<Blog />)} />
                 <Route exact path="/contact" render={(props) => (<Contact />)} />
               </Switch>

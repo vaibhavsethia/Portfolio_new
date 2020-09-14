@@ -7,6 +7,7 @@ import {
   PhoneOutlined,
 } from "@ant-design/icons";
 import { Image, Menu } from "antd";
+import { Link } from 'react-router-dom'
 import Fade from "react-reveal/Fade";
 
 import Img from "../../Images/Profile/Image_1.jpeg";
@@ -52,6 +53,7 @@ export class SideMenu extends Component {
             <Fade left cascade>
               <span className="menu-list">ABOUT</span>
             </Fade>
+            <Link to="/" />
           </Menu.Item>
           <Menu.Item key="2" icon={<BarsOutlined />}>
             <Fade left cascade>
@@ -67,11 +69,13 @@ export class SideMenu extends Component {
             <Fade left cascade>
               <span className="menu-list">BLOG</span>
             </Fade>
+            <Link to="/blog" />
           </Menu.Item>
           <Menu.Item key="5" icon={<PhoneOutlined />}>
             <Fade left cascade>
               <span className="menu-list">CONTACT</span>
             </Fade>
+            <Link to="/contact" />
           </Menu.Item>
         </Menu>
       </div>

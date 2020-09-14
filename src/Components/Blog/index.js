@@ -4,7 +4,7 @@ export class Blog extends Component {
   render() {
     return (
       <div>
-        
+        vlog
       </div>
     )
   }
