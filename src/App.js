@@ -1,40 +1,43 @@
-import React, { Component } from 'react'
-import { Layout } from 'antd';
+import React, { Component } from "react";
+import { Layout } from "antd";
 import { Switch, Route } from "react-router-dom";
 
-import SideMenu from './Components/SideMenu'
-import Hero from './Components/Hero';
-import Footer from './Components/Footer'
+import SideMenu from "./Components/SideMenu";
+import Hero from "./Components/Hero";
+import Footer from "./Components/Footer";
+import About from './Components/About';
+import Blog from './Components/Blog';
+import Contact from './Components/Contact';
 
-import './App.css';
+import "./App.css";
 
 const { Content, Sider } = Layout;
 
 export class App extends Component {
   constructor(props) {
-    super(props)
-  
+    super(props);
+
     this.state = {
-       isCollapsed: false,
-    }
+      isCollapsed: false,
+    };
   }
 
-  onCollapse = isCollapsed => {
+  onCollapse = (isCollapsed) => {
     this.setState({ isCollapsed });
   };
-  
+
   BringInView = () => {
     window.scrollBy({
       top: 1200,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
-  }
+  };
 
-  componentDidMount(){
-    if(Number(window.screen.width) < 700){
+  componentDidMount() {
+    if (Number(window.screen.width) < 700) {
       this.setState({
         isCollapsed: true,
-      })
+      });
     }
   }
 
@@ -42,19 +45,28 @@ export class App extends Component {
     return (
       <div>
         <Hero View={this.BringInView}></Hero>
-        <Layout style={{ minHeight: '100vh' }}>
-          <Sider width={300} collapsible collapsed={this.state.isCollapsed} onCollapse={this.onCollapse}>
+        <Layout style={{ minHeight: "100vh" }}>
+          <Sider
+            width={300}
+            collapsible
+            collapsed={this.state.isCollapsed}
+            onCollapse={this.onCollapse}
+          >
             <SideMenu collapsed={this.state.isCollapsed} />
           </Sider>
-          <Content>
-            <Switch>
-
-            </Switch>
-          </Content>
-          <Footer />
+          <Layout>
+            <Content>
+              <Switch>
+                <Route exact path="/" render={(props) => (<About />)} />
+                <Route exact path="/blog" render={(props) => (<Blog />)} />
+                <Route exact path="/contact" render={(props) => (<Contact />)} />
+              </Switch>
+            </Content>
+            <Footer />
+          </Layout>
         </Layout>
       </div>
-    )
+    );
   }
 }
 
