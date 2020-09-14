@@ -1,0 +1,21 @@
+.ant-tabs-tab {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 350;
+  margin: 0 35px 0 35px !important;
+  padding: 2px 30px 2px 30px !important;
+  font-size: 18px !important;
+}
+.ant-tabs-tab-active {
+  background-color: #3f918d !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white !important;
+  font-weight: 400 !important;
+}
+.ant-tabs-tab:hover {
+  color: #3f918d !important;
+}
+.ant-tabs-ink-bar {
+  background: black !important;
+  height: 1px !important;
+}
