@@ -55,7 +55,7 @@ export class App extends Component {
             <SideMenu collapsed={this.state.isCollapsed} />
           </Sider>
           <Layout>
-            <Content>
+            <Content className="content">
               <Switch>
                 <Route exact path="/" component={About} />
                 <Route exact path="/blog" render={(props) => (<Blog />)} />

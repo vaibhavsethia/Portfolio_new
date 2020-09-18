@@ -17,7 +17,7 @@ const contentStyle = {
 export class Projects extends Component {
   render() {
     return (
-      <div id="Projs" className="project-section">
+      <div id="Projects" className="project-section">
         <PageHeader 
           Title={<span>Projects</span>}
         />

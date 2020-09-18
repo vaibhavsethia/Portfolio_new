@@ -1,18 +1,21 @@
-.footer-section{
+.footer-section {
   background-color: black;
   padding: 10px;
 }
-.cpright{
+.cpright {
   color: #bebebe;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 300;
   font-size: 14px;
 }
-.icons-footer:hover{
-  color: #3f918d;
+.icons-footer {
+  color: white !important;
+}
+.icons-footer:hover {
+  color: #bebebe;
   transform: scale(1.5);
 }
-.back-top-footer{
+.back-top-footer {
   background-color: #c7c7c7;
   opacity: 0.7;
   padding: 10px;
