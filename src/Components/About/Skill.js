@@ -25,7 +25,7 @@ export class SkillCard extends Component {
     }
 
     return (
-      <Col className="mb2 mt2" xl={4} lg={6} md={8} sm={12} xs={12}>
+      <Col className="mb2 mt2 skill-hover" xl={4} lg={6} md={8} sm={12} xs={12}>
         <Rotate top={TopVal} bottom={BottomVal} left={LeftVal} right={RightVal}>
           <Progress
             strokeColor={this.props.Color}
