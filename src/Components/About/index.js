@@ -1,10 +1,6 @@
-import { Col, Progress, Row } from "antd";
+import { Row } from "antd";
 import React, { Component } from "react";
 import PageHeader from "../../Utils/PageHeader";
-import Avatar from "../../Images/Profile/Avatar.png";
-import Fade from "react-reveal/Fade";
-import Rotate from "react-reveal/Rotate";
-
 import Timeline from "../Timeline";
 import Projects from "../Projects";
 

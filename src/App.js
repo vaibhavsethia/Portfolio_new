@@ -57,9 +57,9 @@ export class App extends Component {
           <Layout>
             <Content className="content">
               <Switch>
-                <Route exact path="/" component={About} />
-                <Route exact path="/blog" render={(props) => (<Blog />)} />
-                <Route exact path="/contact" render={(props) => (<Contact />)} />
+                <Route exact path="/Portfolio_new/" component={About} />
+                <Route exact path="/Portfolio_new/blog" render={(props) => (<Blog />)} />
+                <Route exact path="/Portfolio_new/contact" render={(props) => (<Contact />)} />
               </Switch>
             </Content>
             <Footer />
