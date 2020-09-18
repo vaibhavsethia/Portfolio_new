@@ -10,16 +10,16 @@ export class SkillCard extends Component {
       BottomVal = false,
       LeftVal = false,
       RightVal = false;
-    if (this.props.Align == "TopLeft") {
+    if (this.props.Align === "TopLeft") {
       TopVal = true;
       LeftVal = true;
-    } else if (this.props.Align == "TopRight") {
+    } else if (this.props.Align === "TopRight") {
       TopVal = true;
       RightVal = true;
-    } else if (this.props.Align == "BottomLeft") {
+    } else if (this.props.Align === "BottomLeft") {
       BottomVal = true;
       LeftVal = true;
-    } else if (this.props.Align == "BottomRight") {
+    } else if (this.props.Align === "BottomRight") {
       BottomVal = true;
       RightVal = true;
     }

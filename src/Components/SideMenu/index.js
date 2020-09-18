@@ -14,8 +14,6 @@ import Img from "../../Images/Profile/Image_1.jpeg";
 
 import "./SideMenu.css";
 
-const { SubMenu } = Menu;
-
 export class SideMenu extends Component {
   constructor(props) {
     super(props);

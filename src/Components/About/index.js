@@ -44,6 +44,3 @@ export class About extends Component {
 }
 
 export default About;
-{
-  /*I am often amazed by the progress we as a human species have mad in Interstellar space (except declaring Pluto a Dwarf!!)  and look for freelancing and industrial exposure oppurtunities to polish my skills and help me exploit my weaknesses and know my strengths */
-}
