@@ -5,6 +5,7 @@ import { DownOutlined, RightOutlined } from "@ant-design/icons";
 import Fade from "react-reveal/Fade";
 
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 export class Hero extends Component {
   render() {
@@ -61,12 +62,16 @@ export class Hero extends Component {
           <Fade left big cascade>
             Hello, I'm <span className="hero-content-2">Vaibhav Sethia</span>
           </Fade>
-          <Fade right big cascade>I'm a full-stack developer.</Fade>
-          <Button onClick={this.props.View}>
-            <span className="button-text">View My Work</span>
-            <RightOutlined className="button-right" />
-            <DownOutlined className="button-down" />
-          </Button>
+          <Fade right big cascade>
+            I'm a full-stack developer.
+          </Fade>
+          <Link to="/Portfolio_new/">
+            <Button onClick={this.props.View}>
+              <span className="button-text">View My Work</span>
+              <RightOutlined className="button-right" />
+              <DownOutlined className="button-down" />
+            </Button>
+          </Link>
         </div>
       </div>
     );
