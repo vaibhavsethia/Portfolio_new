@@ -1,3 +1,6 @@
+const Desc =
+  "Dolor ex ex ea Lorem officia est deserunt. Ad ea est quis consequat labore velit fugiat qui officia occaecat nulla adipisicing incididunt. Id ex exercitation dolore ipsum. Quis non dolore cillum elit duis. Reprehenderit commodo ullamco aute elit exercitation et qui dolore commodo velit nulla.";
+
 export const Skills_1 = [
   {
     Name: "C++",
@@ -73,5 +76,51 @@ export const Skills_2 = [
     Percent: "50",
     Color: "#0EEAE0",
     Align: "BottomRight",
+  },
+];
+
+export const Projects_All = [
+  {
+    Name: "Smart Traffic Lights",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/vaibhavsethia/Smart-Traffic-Light",
+  },
+  {
+    Name: "Automated Document Verifier",
+    Desc: Desc,
+    DisabledButton: true,
+    Github: "",
+  },
+  {
+    Name: "PVP Battle",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/vaibhavsethia/PvP_Battle",
+  },
+];
+
+export const Projects_Go = [];
+
+export const Projects_React = [];
+
+export const Projects_Python = [
+  {
+    Name: "Smart Traffic Lights",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/vaibhavsethia/Smart-Traffic-Light",
+  },
+  {
+    Name: "Automated Document Verifier",
+    Desc: Desc,
+    DisabledButton: true,
+    Github: "",
+  },
+  {
+    Name: "PVP Battle",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/vaibhavsethia/PvP_Battle",
   },
 ];
