@@ -1,56 +1,44 @@
-import React, { Component } from 'react'
-import PageHeader from '../../Utils/PageHeader'
-import { Tabs, Carousel } from 'antd';
+import React, { Component } from "react";
+import PageHeader from "../../Utils/PageHeader";
+import { Tabs, Carousel, Row } from "antd";
 
-import './Projects.css'
+import "./Projects.css";
+import ProjectCard from "./ProjectCard";
+import STL_1 from "../../Images/Projects/STL_1.jpg";
+import PVP_1 from "../../Images/Projects/PVP_1.jpg";
+import ADV_1 from "../../Images/Projects/ADV_1.jpg";
 
 const { TabPane } = Tabs;
-const contentStyle = {
-  height: '300px',
-  color: '#fff',
-  lineHeight: '160px',
-  textAlign: 'center',
-  margin: '10px 120px',
-  background: '#364d79',
-};
 
 export class Projects extends Component {
   render() {
     return (
       <div id="Projects" className="project-section">
-        <PageHeader 
-          Title={<span>Projects</span>}
-        />
+        <PageHeader Title={<span>Projects</span>} />
         <Tabs defaultActiveKey="1" centered>
-        <TabPane tab="All" key="1">
-        <Carousel>
-          <div>
-            <h3 style={contentStyle}>1</h3>
-          </div>
-          <div>
-            <h3 style={contentStyle}>2</h3>
-          </div>
-          <div>
-            <h3 style={contentStyle}>3</h3>
-          </div>
-          <div>
-            <h3 style={contentStyle}>4</h3>
-          </div>
-        </Carousel>
+          <TabPane tab="All" key="1">
+            <Row justify="center">
+              <ProjectCard Image={STL_1} />
+              <ProjectCard Image={PVP_1} />
+            </Row>
           </TabPane>
           <TabPane tab="Golang" key="2">
-            Content of Tab Pane 1
+            <Row justify="center"></Row>
           </TabPane>
           <TabPane tab="React-Js" key="3">
-            Content of Tab Pane 2
+            <Row justify="center"></Row>
           </TabPane>
           <TabPane tab="Python" key="4">
-            Content of Tab Pane 3
+            <Row justify="center">
+              <ProjectCard Image={STL_1} />
+              <ProjectCard Image={ADV_1} />
+              <ProjectCard Image={PVP_1} />
+            </Row>
           </TabPane>
         </Tabs>
       </div>
-    )
+    );
   }
 }
 
-export default Projects
+export default Projects;
