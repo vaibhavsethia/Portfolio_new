@@ -98,11 +98,79 @@ export const Projects_All = [
     DisabledButton: false,
     Github: "https://github.com/vaibhavsethia/PvP_Battle",
   },
+  {
+    Name: "Visual Website Optimization",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/decabits/vwo-golang-sdk",
+  },
+  {
+    Name: "Visual Website Optimization Example App",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/decabits/vwo-golang-example-app",
+  },
 ];
 
-export const Projects_Go = [];
+export const Projects_Go = [
+  {
+    Name: "Visual Website Optimization",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/decabits/vwo-golang-sdk",
+  },
+  {
+    Name: "Visual Website Optimization Example App",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/decabits/vwo-golang-example-app",
+  },
+];
 
-export const Projects_React = [];
+export const Projects_React = [
+  {
+    Name: "JWilliamson Company Site",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/vaibhavsethia/JW_Web_antD",
+  },
+  {
+    Name: "Template Portfolio Site",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/vaibhavsethia/JP_Website",
+  },
+  {
+    Name: "Automated Document Verifier",
+    Desc: Desc,
+    DisabledButton: true,
+    Github: "",
+  },
+  {
+    Name: "My Portfolio - Implementation One",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/vaibhavsethia/Myportfolio",
+  },
+  {
+    Name: "Virtual Dashboard",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/vaibhavsethia/Visual-Dashboard",
+  },
+  {
+    Name: "Data Visualizer",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/vaibhavsethia/Data-Visualizer",
+  },
+  {
+    Name: "Background Generator",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://github.com/vaibhavsethia/BackGround-Generator",
+  },
+]
 
 export const Projects_Python = [
   {
