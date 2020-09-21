@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import PageHeader from "../../Utils/PageHeader";
-import { GooglePlusOutlined, MailOutlined } from "@ant-design/icons";
-import { Divider, Row, Col, Input, Form, Button } from "antd";
+import {
+  GooglePlusOutlined,
+  MailOutlined,
+  BugOutlined,
+  GithubOutlined,
+  BranchesOutlined,
+  ArrowRightOutlined,
+} from "@ant-design/icons";
+import { Divider, Row, Col, Input, Form, Button, InputNumber } from "antd";
 
 import "./Contact.css";
 
@@ -11,16 +18,12 @@ const layout = {
 };
 
 const validateMessages = {
-  // eslint-disable-next-line
   required: "${label} is required!",
   types: {
-    // eslint-disable-next-line
     email: "${label} is not validate email!",
-    // eslint-disable-next-line
     number: "${label} is not a validate number!",
   },
   number: {
-    // eslint-disable-next-line
     range: "${label} must be between ${min} and ${max}",
   },
 };
@@ -35,8 +38,7 @@ export class Contact extends Component {
       <div className="tc">
         <PageHeader Title={<span>Contact</span>} />
         <div>
-          <Row>
-            <Col xl={8} lg={8} md={8} sm={8} xs={8}></Col>
+          <Row justify="center">
             <Col xl={8} lg={8} md={8} sm={8} xs={8}>
               <Divider orientation="center" plain>
                 <span className="f2">
@@ -44,11 +46,32 @@ export class Contact extends Component {
                 </span>
               </Divider>
             </Col>
-            <Col xl={8} lg={8} md={8} sm={8} xs={8}></Col>
           </Row>
-          <span className="mail-id-contact">vaibhavsethia1998@gmail.com</span>
-          <Row className="pt3">
-            <Col xl={8} lg={8} md={8} sm={8} xs={8}></Col>
+          <div className="mail-id-contact">vaibhavsethia1998@gmail.com</div>
+          <Row justify="center">
+            <Col xl={8} lg={8} md={8} sm={8} xs={8}>
+              <Divider orientation="center" plain>
+                <span className="f2">
+                  <BugOutlined />
+                </span>
+              </Divider>
+            </Col>
+          </Row>
+          <div className="bug-report-contact">
+            {" "}
+            <span>Found a Bug ?? Fork, Debug and Make a PR</span>
+            <BranchesOutlined />
+            <br />
+            <a
+              style={{ color: "#242526" }}
+              href="https://github.com/vaibhavsethia/Portfolio_new"
+            >
+              Here{" "}
+              <ArrowRightOutlined className="f3" style={{ color: "black" }} />{" "}
+              <GithubOutlined className="grow f2" />
+            </a>
+          </div>
+          <Row justify="center" className="pt3">
             <Col xl={8} lg={8} md={8} sm={8} xs={8}>
               <Divider orientation="center" plain>
                 <span className="f2">
@@ -56,10 +79,8 @@ export class Contact extends Component {
                 </span>
               </Divider>
             </Col>
-            <Col xl={8} lg={8} md={8} sm={8} xs={8}></Col>
           </Row>
-          <Row className="pt3">
-            <Col xl={7} lg={7} md={6} sm={0} xs={0}></Col>
+          <Row justify="center" className="pt3">
             <Col xl={10} lg={10} md={12} sm={24} xs={24}>
               <Form
                 {...layout}
@@ -77,7 +98,7 @@ export class Contact extends Component {
                 <Form.Item
                   name={["user", "email"]}
                   label="Email"
-                  rules={[{ type: "email", required: true }]}
+                  rules={[{ required: true, type: "email" }]}
                 >
                   <Input />
                 </Form.Item>
@@ -91,7 +112,6 @@ export class Contact extends Component {
                 </Form.Item>
               </Form>
             </Col>
-            <Col xl={7} lg={7} md={6} sm={0} xs={0}></Col>
           </Row>
         </div>
       </div>
