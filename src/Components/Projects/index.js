@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PageHeader from "../../Utils/PageHeader";
-import { Tabs, Row } from "antd";
+import { Tabs } from "antd";
 
 import "./Projects.css";
 
