@@ -24,6 +24,8 @@ import VWO_3 from "../../Images/Projects/VWO_3.jpg";
 import VWO_4 from "../../Images/Projects/VWO_4.png";
 import VWO_5 from "../../Images/Projects/VWO_5.png";
 import { Row } from "antd";
+import Flip from "react-reveal/Flip";
+import Pulse from "react-reveal/Pulse";
 
 const Desc =
   "Dolor ex ex ea Lorem officia est deserunt. Ad ea est quis consequat labore velit fugiat qui officia occaecat nulla adipisicing incididunt. Id ex exercitation dolore ipsum. Quis non dolore cillum elit duis. Reprehenderit commodo ullamco aute elit exercitation et qui dolore commodo velit nulla.";
@@ -59,98 +61,121 @@ export class ProjectsAll extends Component {
     return (
       <div>
         <Row justify="center">
-          <ProjectCard
-            Name={"Visual Website Optimization"}
-            Desc={Desc}
-            Image={Image_All[0]}
-            ModalImage={ModalImage_All[0]}
-            DisabledButton={false}
-            Github={"https://github.com/decabits/vwo-golang-sdk"}
-          />
-          <ProjectCard
-            Name={"Smart Traffic Lights"}
-            Desc={Desc}
-            Image={Image_All[1]}
-            ModalImage={ModalImage_All[1]}
-            DisabledButton={false}
-            Github={"https://github.com/vaibhavsethia/Smart-Traffic-Light"}
-          />
-          <ProjectCard
-            Name={"Automated Document Verifier"}
-            Desc={Desc}
-            Image={Image_All[2]}
-            ModalImage={ModalImage_All[2]}
-            DisabledButton={true}
-            Github={this.props.Github}
-          />
-          <ProjectCard
-            Name={"JWilliamson Company Site"}
-            Desc={Desc}
-            Image={Image_All[3]}
-            ModalImage={ModalImage_All[3]}
-            DisabledButton={false}
-            Github={"https://github.com/vaibhavsethia/JW_Web_antD"}
-          />
+          <Flip left>
+            <ProjectCard
+              Name={"Visual Website Optimization"}
+              Desc={Desc}
+              Image={Image_All[0]}
+              ModalImage={ModalImage_All[0]}
+              DisabledButton={false}
+              Github={"https://github.com/decabits/vwo-golang-sdk"}
+            />
+          </Flip>
+          <Flip top>
+            <ProjectCard
+              Name={"Smart Traffic Lights"}
+              Desc={Desc}
+              Image={Image_All[1]}
+              ModalImage={ModalImage_All[1]}
+              DisabledButton={false}
+              Github={"https://github.com/vaibhavsethia/Smart-Traffic-Light"}
+            />
+          </Flip>
+          <Flip top>
+            <ProjectCard
+              Name={"Automated Document Verifier"}
+              Desc={Desc}
+              Image={Image_All[2]}
+              ModalImage={ModalImage_All[2]}
+              DisabledButton={true}
+              Github={this.props.Github}
+            />
+          </Flip>
+          <Flip right>
+            {" "}
+            <ProjectCard
+              Name={"JWilliamson Company Site"}
+              Desc={Desc}
+              Image={Image_All[3]}
+              ModalImage={ModalImage_All[3]}
+              DisabledButton={false}
+              Github={"https://github.com/vaibhavsethia/JW_Web_antD"}
+            />
+          </Flip>
         </Row>
         <Row justify="center">
-          <ProjectCard
-            Name={"Template Portfolio Site"}
-            Desc={Desc}
-            Image={Image_All[4]}
-            ModalImage={ModalImage_All[4]}
-            DisabledButton={false}
-            Github={"https://github.com/vaibhavsethia/JP_Website"}
-          />
-          <ProjectCard
-            Name={"Visual Website Optimization Example App"}
-            Desc={Desc}
-            Image={Image_All[5]}
-            ModalImage={ModalImage_All[5]}
-            DisabledButton={false}
-            Github={"https://github.com/decabits/vwo-golang-example-app"}
-          />
-          <ProjectCard
-            Name={"Virtual Dashboard"}
-            Desc={Desc}
-            Image={Image_All[6]}
-            ModalImage={ModalImage_All[6]}
-            DisabledButton={false}
-            Github={"https://github.com/vaibhavsethia/Visual-Dashboard"}
-          />
-          <ProjectCard
-            Name={"Data Visualizer"}
-            Desc={Desc}
-            Image={Image_All[7]}
-            ModalImage={ModalImage_All[7]}
-            DisabledButton={false}
-            Github={"https://github.com/vaibhavsethia/Data-Visualizer"}
-          />
+          <Flip left>
+            <ProjectCard
+              Name={"Template Portfolio Site"}
+              Desc={Desc}
+              Image={Image_All[4]}
+              ModalImage={ModalImage_All[4]}
+              DisabledButton={false}
+              Github={"https://github.com/vaibhavsethia/JP_Website"}
+            />
+          </Flip>
+          <Pulse>
+            <ProjectCard
+              Name={"Visual Website Optimization Example App"}
+              Desc={Desc}
+              Image={Image_All[5]}
+              ModalImage={ModalImage_All[5]}
+              DisabledButton={false}
+              Github={"https://github.com/decabits/vwo-golang-example-app"}
+            />
+          </Pulse>
+          <Pulse>
+            <ProjectCard
+              Name={"Virtual Dashboard"}
+              Desc={Desc}
+              Image={Image_All[6]}
+              ModalImage={ModalImage_All[6]}
+              DisabledButton={false}
+              Github={"https://github.com/vaibhavsethia/Visual-Dashboard"}
+            />
+          </Pulse>
+          <Flip right>
+            <ProjectCard
+              Name={"Data Visualizer"}
+              Desc={Desc}
+              Image={Image_All[7]}
+              ModalImage={ModalImage_All[7]}
+              DisabledButton={false}
+              Github={"https://github.com/vaibhavsethia/Data-Visualizer"}
+            />
+          </Flip>
         </Row>
         <Row justify="center">
-          <ProjectCard
-            Name={"My Portfolio - Implementation One"}
-            Desc={Desc}
-            Image={Image_All[8]}
-            ModalImage={ModalImage_All[8]}
-            DisabledButton={false}
-            Github={"https://github.com/vaibhavsethia/Myportfolio"}
-          />
-          <ProjectCard
-            Name={"PVP Battle"}
-            Desc={Desc}
-            Image={Image_All[9]}
-            ModalImage={ModalImage_All[9]}
-            DisabledButton={false}
-            Github={"https://github.com/vaibhavsethia/PvP_Battle"}
-          />
-          <ProjectCard
-            Name={"Background Generator"}
-            Desc={Desc}
-            Image={Image_All[10]}
-            ModalImage={ModalImage_All[10]}
-            DisabledButton={false}
-            Github={"https://github.com/vaibhavsethia/BackGround-Generator"}
-          />
+          <Flip left>
+            <ProjectCard
+              Name={"My Portfolio - Implementation One"}
+              Desc={Desc}
+              Image={Image_All[8]}
+              ModalImage={ModalImage_All[8]}
+              DisabledButton={false}
+              Github={"https://github.com/vaibhavsethia/Myportfolio"}
+            />
+          </Flip>
+          <Flip bottom>
+            <ProjectCard
+              Name={"PVP Battle"}
+              Desc={Desc}
+              Image={Image_All[9]}
+              ModalImage={ModalImage_All[9]}
+              DisabledButton={false}
+              Github={"https://github.com/vaibhavsethia/PvP_Battle"}
+            />
+          </Flip>
+          <Flip right>
+            <ProjectCard
+              Name={"Background Generator"}
+              Desc={Desc}
+              Image={Image_All[10]}
+              ModalImage={ModalImage_All[10]}
+              DisabledButton={false}
+              Github={"https://github.com/vaibhavsethia/BackGround-Generator"}
+            />
+          </Flip>
         </Row>
       </div>
     );

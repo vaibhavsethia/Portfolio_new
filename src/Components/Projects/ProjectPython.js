@@ -8,6 +8,7 @@ import ADV_1 from "../../Images/Projects/ADV_1.jpg";
 import STL_2 from "../../Images/Projects/STL_2.png";
 import PVP_2 from "../../Images/Projects/PVP_2.png";
 import ADV_2 from "../../Images/Projects/ADV_2.png";
+import Flip from "react-reveal/Flip";
 
 const Image_Python = [STL_1, ADV_1, PVP_1];
 const ModalImage_Python = [STL_2, ADV_2, PVP_2];
@@ -18,30 +19,36 @@ export class ProjectPython extends Component {
   render() {
     return (
       <Row justify="center">
-        <ProjectCard
-          Name={"Smart Traffic Lights"}
-          Desc={Desc}
-          Image={Image_Python[0]}
-          ModalImage={ModalImage_Python[0]}
-          DisabledButton={false}
-          Github={"https://github.com/vaibhavsethia/Smart-Traffic-Light"}
-        />
-        <ProjectCard
-          Name={"Automated Document Verifier"}
-          Desc={Desc}
-          Image={Image_Python[1]}
-          ModalImage={ModalImage_Python[1]}
-          DisabledButton={true}
-          Github={this.props.Github}
-        />
-        <ProjectCard
-          Name={"PVP Battle"}
-          Desc={Desc}
-          Image={Image_Python[2]}
-          ModalImage={ModalImage_Python[2]}
-          DisabledButton={false}
-          Github={"https://github.com/vaibhavsethia/PvP_Battle"}
-        />
+        <Flip left>
+          <ProjectCard
+            Name={"Smart Traffic Lights"}
+            Desc={Desc}
+            Image={Image_Python[0]}
+            ModalImage={ModalImage_Python[0]}
+            DisabledButton={false}
+            Github={"https://github.com/vaibhavsethia/Smart-Traffic-Light"}
+          />
+        </Flip>
+        <Flip top>
+          <ProjectCard
+            Name={"Automated Document Verifier"}
+            Desc={Desc}
+            Image={Image_Python[1]}
+            ModalImage={ModalImage_Python[1]}
+            DisabledButton={true}
+            Github={this.props.Github}
+          />
+        </Flip>
+        <Flip right>
+          <ProjectCard
+            Name={"PVP Battle"}
+            Desc={Desc}
+            Image={Image_Python[2]}
+            ModalImage={ModalImage_Python[2]}
+            DisabledButton={false}
+            Github={"https://github.com/vaibhavsethia/PvP_Battle"}
+          />
+        </Flip>
       </Row>
     );
   }
