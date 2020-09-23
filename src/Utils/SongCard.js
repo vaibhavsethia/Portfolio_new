@@ -2,12 +2,8 @@ import React, { Component } from "react";
 import { Carousel, Tooltip } from "antd";
 import ReactAudioPlayer from "react-audio-player";
 
-import "./Blog.css";
+import "../Components/Blog/Blog.css";
 import { YoutubeOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
-
-const contentStyle = {
-  backgroundImage: "./September.jpg",
-};
 
 export class SongCard extends Component {
   state = {
@@ -35,7 +31,7 @@ export class SongCard extends Component {
                 <YoutubeOutlined className="yt-icon" />
               </a>
             </div>
-            <ReactAudioPlayer src={September} autoPlay={true} controls />
+            <ReactAudioPlayer src={this.props.SongFile} autoPlay={true} controls />
           </div>
         </Carousel>
       </div>
