@@ -15,7 +15,7 @@ export class SongCard extends Component {
         <Carousel className="shadow-2" effect="fade" dotPosition="top">
           <div>
             <div className="song-card pr2">
-              <Tooltip className="info-icon" title="Player not working ?? Try reloading the page">
+              <Tooltip className="info-icon" title="Wait for the player to reload">
                 <ExclamationCircleOutlined />
               </Tooltip>
               <span className="small-text-card">Album :</span>
