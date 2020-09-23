@@ -10,7 +10,7 @@ export class Blog extends Component {
       <div>
         <PageHeader Title={<span>Blog</span>} />
         <PageHeader Title={<span>Song of the Month</span>} />
-        {/* <Row justify="center">
+        <Row justify="center">
           <SongCard 
           Album="Fine Line"
           Song="Falling"
@@ -19,7 +19,7 @@ export class Blog extends Component {
           YT="https://www.youtube.com/watch?v=olGSAVOkkTI"
           Singer="Harry Styles"
           />
-        </Row> */}
+        </Row>
       </div>
     );
   }
