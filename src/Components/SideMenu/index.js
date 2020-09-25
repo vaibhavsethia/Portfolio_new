@@ -5,6 +5,7 @@ import {
   UserOutlined,
   FormOutlined,
   PhoneOutlined,
+  DownloadOutlined,
 } from "@ant-design/icons";
 import { Image, Menu } from "antd";
 import { Link } from "react-router-dom";
@@ -13,6 +14,7 @@ import Fade from "react-reveal/Fade";
 import Img from "../../Images/Profile/Image_1.jpeg";
 
 import "./SideMenu.css";
+import { fileDownload } from "js-file-download";
 
 export class SideMenu extends Component {
   constructor(props) {
@@ -21,6 +23,12 @@ export class SideMenu extends Component {
     this.state = {
       IsCollapsed: false,
     };
+  }
+
+  ScrollTo(ID) {
+    var myElement = document.getElementById({ ID });
+    var topPos = myElement.offsetTop;
+    document.getElementById({ ID }).scrollTop = topPos;
   }
 
   render() {
@@ -55,12 +63,12 @@ export class SideMenu extends Component {
           </Menu.Item>
           <Menu.Item key="2" icon={<BarsOutlined />}>
             <Fade left cascade>
-              <span className="menu-list">TIMELINE</span>
+              <span className="menu-list">PROJECTS</span>
             </Fade>
           </Menu.Item>
           <Menu.Item key="3" icon={<CodeOutlined />}>
             <Fade left cascade>
-              <span className="menu-list">PROJECTS</span>
+              <span className="menu-list">TIMELINE</span>
             </Fade>
           </Menu.Item>
           <Menu.Item key="4" icon={<FormOutlined />}>
@@ -74,6 +82,11 @@ export class SideMenu extends Component {
               <span className="menu-list">CONTACT</span>
             </Fade>
             <Link to="/Portfolio_new/contact" />
+          </Menu.Item>
+          <Menu.Item key="6" icon={<DownloadOutlined />}>
+            <Fade left cascade>
+              <a href="https://drive.google.com/file/d/1TicFxaBDh601g84aMTE8OS7dsG4tQAdB/view?usp=sharing" className="menu-list">RESUME</a>
+            </Fade>
           </Menu.Item>
         </Menu>
       </div>
