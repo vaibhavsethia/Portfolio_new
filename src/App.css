@@ -44,8 +44,8 @@
   background-color: black;
   background: rgb(17, 17, 17) !important;
 }
-.content{
-  max-height: 100vh;
+.content {
+  height: 80vh;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }

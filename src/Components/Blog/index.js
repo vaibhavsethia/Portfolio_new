@@ -53,7 +53,7 @@ export class Blog extends Component {
           />
         </Row>
         <PageHeader Title={<span>Song of the Month</span>} />
-        <Row justify="center">
+        <Row justify="center" className="pb2 mb2">
           <SongCard
             Album="Fine Line"
             Song="Falling"
