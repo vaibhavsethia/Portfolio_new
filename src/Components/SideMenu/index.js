@@ -25,10 +25,12 @@ export class SideMenu extends Component {
     };
   }
 
-  ScrollTo(ID) {
-    var myElement = document.getElementById({ ID });
-    var topPos = myElement.offsetTop;
-    document.getElementById({ ID }).scrollTop = topPos;
+  ScrollToProjects() {
+    document.getElementById('projects-section').scrollIntoView();
+  }
+
+  ScrollToTimeline() {
+    document.getElementById('timeline-section').scrollIntoView();
   }
 
   render() {
@@ -61,12 +63,12 @@ export class SideMenu extends Component {
             </Fade>
             <Link to="/Portfolio_new/" />
           </Menu.Item>
-          <Menu.Item key="2" icon={<BarsOutlined />}>
+          <Menu.Item onClick={this.ScrollToProjects} key="2" icon={<BarsOutlined />}>
             <Fade left cascade>
               <span className="menu-list">PROJECTS</span>
             </Fade>
           </Menu.Item>
-          <Menu.Item key="3" icon={<CodeOutlined />}>
+          <Menu.Item onClick={this.ScrollToTimeline} key="3" icon={<CodeOutlined />}>
             <Fade left cascade>
               <span className="menu-list">TIMELINE</span>
             </Fade>

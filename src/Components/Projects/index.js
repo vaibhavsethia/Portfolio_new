@@ -14,7 +14,7 @@ const { TabPane } = Tabs;
 export class Projects extends Component {
   render() {
     return (
-      <div id="Projects" className="project-section">
+      <div id="projects-section" className="project-section">
         <PageHeader Title={<span>Projects</span>} />
         <Tabs defaultActiveKey="1" centered>
           <TabPane className="pb5" tab="All" key="1">
