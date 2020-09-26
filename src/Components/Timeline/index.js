@@ -1,19 +1,15 @@
-import React, { Component } from "react";
-import { Alert } from "antd";
-
+import React, { Component } from 'react'
+import PageHeader from "../../Utils/PageHeader";
+import TimeLineElements from './TimeLineElements'
 export class Timeline extends Component {
   render() {
     return (
-      <div>
-        Timeline
-        <Alert
-          classname="pa4"
-          message="Section still in Building phase"
-          type="warning"
-        />
+      <div className="pb4">
+        <PageHeader Title={<span>Timeline</span>} />
+        <TimeLineElements />
       </div>
-    );
+    )
   }
 }
 
-export default Timeline;
+export default Timeline
