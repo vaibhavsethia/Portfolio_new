@@ -6,7 +6,7 @@ import {
   BugOutlined,
   GithubOutlined,
 } from "@ant-design/icons";
-import { Divider, Row, Col, Input, Form, Button, InputNumber } from "antd";
+import { Divider, Row, Col, Input } from "antd";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

@@ -10,8 +10,6 @@ import Flip from "react-reveal/Flip";
 
 const ModalImage_Go = [VWO_1, VWO_5];
 const Image_Go = [VWO_3, VWO_4];
-const Desc =
-  "Dolor ex ex ea Lorem officia est deserunt. Ad ea est quis consequat labore velit fugiat qui officia occaecat nulla adipisicing incididunt. Id ex exercitation dolore ipsum. Quis non dolore cillum elit duis. Reprehenderit commodo ullamco aute elit exercitation et qui dolore commodo velit nulla.";
 
 export class ProjectGo extends Component {
   render() {

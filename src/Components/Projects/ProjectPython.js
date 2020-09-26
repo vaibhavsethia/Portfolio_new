@@ -12,8 +12,6 @@ import Flip from "react-reveal/Flip";
 
 const Image_Python = [STL_1, ADV_1, PVP_1];
 const ModalImage_Python = [STL_2, ADV_2, PVP_2];
-const Desc =
-  "Dolor ex ex ea Lorem officia est deserunt. Ad ea est quis consequat labore velit fugiat qui officia occaecat nulla adipisicing incididunt. Id ex exercitation dolore ipsum. Quis non dolore cillum elit duis. Reprehenderit commodo ullamco aute elit exercitation et qui dolore commodo velit nulla.";
 
 export class ProjectPython extends Component {
   render() {

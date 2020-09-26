@@ -14,7 +14,6 @@ import Fade from "react-reveal/Fade";
 import Img from "../../Images/Profile/Image_1.jpeg";
 
 import "./SideMenu.css";
-import { fileDownload } from "js-file-download";
 
 export class SideMenu extends Component {
   constructor(props) {

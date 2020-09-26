@@ -3,9 +3,6 @@ import { Button, Card, Col } from "antd";
 import { GithubOutlined } from "@ant-design/icons";
 import "./Projects.css";
 import Modal from "antd/lib/modal/Modal";
-import { Link } from "react-router-dom";
-
-const { Meta } = Card;
 
 export class ProjectCard extends Component {
   constructor(props) {

@@ -27,8 +27,6 @@ import { Row } from "antd";
 import Flip from "react-reveal/Flip";
 import Pulse from "react-reveal/Pulse";
 
-const Desc =
-  "Dolor ex ex ea Lorem officia est deserunt. Ad ea est quis consequat labore velit fugiat qui officia occaecat nulla adipisicing incididunt. Id ex exercitation dolore ipsum. Quis non dolore cillum elit duis. Reprehenderit commodo ullamco aute elit exercitation et qui dolore commodo velit nulla.";
 const Image_All = [
   VWO_3,
   STL_1,
