@@ -22,7 +22,7 @@ export class ProjectPython extends Component {
         <Flip left>
           <ProjectCard
             Name={"Smart Traffic Lights"}
-            Desc={Desc}
+            Desc={"Python based software to implement dynamic traffic lights which will are proposed to have timers set according to the number of vehicles present on different sidfes of a 4-way intersection. It used technologies like OpenCv library, ImageAI, Python, Pycharm, PyQt and Turtle for complete implementation. Some of the significant features are Variance-Based Algorithm, Max Waiting time, Handled Few car case and Single sided case."}
             Image={Image_Python[0]}
             ModalImage={ModalImage_Python[0]}
             DisabledButton={false}
@@ -32,7 +32,7 @@ export class ProjectPython extends Component {
         <Flip top>
           <ProjectCard
             Name={"Automated Document Verifier"}
-            Desc={Desc}
+            Desc={"React based Web-App to present Python backend for automating the task of document verification using Image Processing and Layout matching using OpenCV. Some of the documents successfully verified were PAN Card, 10th Marksheet, 12th Marksheet with checks to validate the data from database also. It used technologies like React, Tachyons, Python, Express, OpenCv, etc. "}
             Image={Image_Python[1]}
             ModalImage={ModalImage_Python[1]}
             DisabledButton={true}
@@ -42,7 +42,7 @@ export class ProjectPython extends Component {
         <Flip right>
           <ProjectCard
             Name={"PVP Battle"}
-            Desc={Desc}
+            Desc={"A simple Python based textual game with 2 game modes, Single player and Multi Player. The Main motto of the player is to defeat the enemy using basic attacks , Magic or items in inventory. With different items having different Damage points and uses Magic points that can be revived using Potions "}
             Image={Image_Python[2]}
             ModalImage={ModalImage_Python[2]}
             DisabledButton={false}

@@ -64,7 +64,7 @@ export class ProjectsAll extends Component {
           <Flip left>
             <ProjectCard
               Name={"Visual Website Optimization"}
-              Desc={Desc}
+              Desc={"Implemented an open source library that allows you to A/B Test your Website at server-side with features like Feature testing, Tracking revenue conversion user wise and logger. SDK was implemented in Go language using third party packages like murmur hashing, google uuid, etc with a test coverage of upto 95%."}
               Image={Image_All[0]}
               ModalImage={ModalImage_All[0]}
               DisabledButton={false}
@@ -74,7 +74,7 @@ export class ProjectsAll extends Component {
           <Flip top>
             <ProjectCard
               Name={"Smart Traffic Lights"}
-              Desc={Desc}
+              Desc={"Python based software to implement dynamic traffic lights which will are proposed to have timers set according to the number of vehicles present on different sidfes of a 4-way intersection. It used technologies like OpenCv library, ImageAI, Python, Pycharm, PyQt and Turtle for complete implementation. Some of the significant features are Variance-Based Algorithm, Max Waiting time, Handled Few car case and Single sided case."}
               Image={Image_All[1]}
               ModalImage={ModalImage_All[1]}
               DisabledButton={false}
@@ -84,7 +84,7 @@ export class ProjectsAll extends Component {
           <Flip top>
             <ProjectCard
               Name={"Automated Document Verifier"}
-              Desc={Desc}
+              Desc={"React based Web-App to present Python backend for automating the task of document verification using Image Processing and Layout matching using OpenCV. Some of the documents successfully verified were PAN Card, 10th Marksheet, 12th Marksheet with checks to validate the data from database also. It used technologies like React, Tachyons, Python, Express, OpenCv, etc. "}
               Image={Image_All[2]}
               ModalImage={ModalImage_All[2]}
               DisabledButton={true}
@@ -95,7 +95,7 @@ export class ProjectsAll extends Component {
             {" "}
             <ProjectCard
               Name={"JWilliamson Company Site"}
-              Desc={Desc}
+              Desc={"A Multi-page ReactJs based website made using Ant Design with bug free transitions even on small screen devices like smartphones. Fully responsive and reactive with animations and smooth scrolling. It used Technologies like ReactJs, Ant Design, Tachyons, NodeJs, Figma, React-Reveal, NPM and many other packages for small tasks."}
               Image={Image_All[3]}
               ModalImage={ModalImage_All[3]}
               DisabledButton={false}
@@ -107,7 +107,7 @@ export class ProjectsAll extends Component {
           <Flip left>
             <ProjectCard
               Name={"Template Portfolio Site"}
-              Desc={Desc}
+              Desc={"A Multi-page React based website template made using HTML, CSS and Js for frontend implementation and Figma for design preparation. It has a bug free  transitions even on small screen devices like smartphones and is completely responsive and reactive with fast animations for immersive UI."}
               Image={Image_All[4]}
               ModalImage={ModalImage_All[4]}
               DisabledButton={false}
@@ -117,7 +117,7 @@ export class ProjectsAll extends Component {
           <Pulse>
             <ProjectCard
               Name={"Visual Website Optimization Example App"}
-              Desc={Desc}
+              Desc={"Implemented a website that provides a basic demo of how server-side works with VWO GO SDK with features to view A/B, Track, Feature Rollout and Feature Enabled testing with an option to view and verify the settings file from server."}
               Image={Image_All[5]}
               ModalImage={ModalImage_All[5]}
               DisabledButton={false}
@@ -127,7 +127,7 @@ export class ProjectsAll extends Component {
           <Pulse>
             <ProjectCard
               Name={"Virtual Dashboard"}
-              Desc={Desc}
+              Desc={"A React based Virtual Dashboard to demonstrate data for Airport Authority of India in order to provide a visual tool to keep a record of the footfall among various amneties and shops around the top 7 airports of India. Made with an idea of improving layout of future airports made in India to utilize space more efficiently. ( Project is Incomplete )"}
               Image={Image_All[6]}
               ModalImage={ModalImage_All[6]}
               DisabledButton={false}
@@ -137,7 +137,7 @@ export class ProjectsAll extends Component {
           <Flip right>
             <ProjectCard
               Name={"Data Visualizer"}
-              Desc={Desc}
+              Desc={"A React based data analysis tool to visualize data into multiple types of graphs. Graphs used are based on Victory API for data visualization. Respective Website has Upto 10 types of graphs like Bar graphs, Stcaked graphs, Pie charts, Radial graphs, Line graphs, Area graphs, etc."}
               Image={Image_All[7]}
               ModalImage={ModalImage_All[7]}
               DisabledButton={false}
@@ -149,7 +149,7 @@ export class ProjectsAll extends Component {
           <Flip left>
             <ProjectCard
               Name={"My Portfolio - Implementation One"}
-              Desc={Desc}
+              Desc={"A Single-page React based implementation of my first ever portfolio made by using styles from colorlib library. With sections like projects, skills and education to provide complete information about me to the viewer. What you are currently viewing is the Second implementation of my portfolio to make it better looking, Reactive and Responsive."}
               Image={Image_All[8]}
               ModalImage={ModalImage_All[8]}
               DisabledButton={false}
@@ -159,7 +159,7 @@ export class ProjectsAll extends Component {
           <Flip bottom>
             <ProjectCard
               Name={"PVP Battle"}
-              Desc={Desc}
+              Desc={"A simple Python based textual game with 2 game modes, Single player and Multi Player. The Main motto of the player is to defeat the enemy using basic attacks , Magic or items in inventory. With different items having different Damage points and uses Magic points that can be revived using Potions "}
               Image={Image_All[9]}
               ModalImage={ModalImage_All[9]}
               DisabledButton={false}
@@ -169,7 +169,7 @@ export class ProjectsAll extends Component {
           <Flip right>
             <ProjectCard
               Name={"Background Generator"}
-              Desc={Desc}
+              Desc={"A React based data analysis tool to visualize data into multiple types of graphs. Graphs used are based on Victory API for data visualization. Respective Website has Upto 10 types of graphs like Bar graphs, Stcaked graphs, Pie charts, Radial graphs, Line graphs, Area graphs, etc."}
               Image={Image_All[10]}
               ModalImage={ModalImage_All[10]}
               DisabledButton={false}
