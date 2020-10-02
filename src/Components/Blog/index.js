@@ -52,17 +52,6 @@ export class Blog extends Component {
             }
           />
         </Row>
-        <PageHeader Title={<span>Song of the Month</span>} />
-        <Row justify="center" className="pb2 mb2">
-          <SongCard
-            Album="Fine Line"
-            Song="Falling"
-            Image={AlbumCover}
-            SongFile={SongOfTheMonth}
-            YT="https://www.youtube.com/watch?v=olGSAVOkkTI"
-            Singer="Harry Styles"
-          />
-        </Row>
       </div>
     );
   }
