@@ -62,6 +62,7 @@ export class ProjectCard extends Component {
                   className="github-button"
                   disabled={this.props.DisabledButton}
                   href={this.props.Github}
+                  target="_blank"
                 >
                   <GithubOutlined />
                   View on Github

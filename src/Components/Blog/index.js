@@ -15,6 +15,7 @@ export class Blog extends Component {
         <Row justify="center">
           <BlogCard
             Image={Blog_1}
+            Link="https://medium.com/@vaibhavsethia1998/data-visualization-in-react-using-victory-part-1-54542960f538"
             Title="Data Visualization in React using Victory (Part 1)"
             Desc={
               <div>
@@ -34,6 +35,7 @@ export class Blog extends Component {
           />
           <BlogCard
             Image={Blog_1}
+            Link="https://medium.com/@vaibhavsethia1998/data-visualization-in-react-using-victory-part-2-a006f4c6b659"
             Title="Data Visualization in React using Victory (Part 2)"
             Desc={
               <div>

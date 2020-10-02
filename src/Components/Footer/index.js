@@ -25,6 +25,7 @@ export class Footer extends Component {
           href="https://github.com/vaibhavsethia"
           className="icons-footer pa2 f3 fw1 pt2 pb1"
           style={{ color: "white" }}
+          target="_blank"
         >
           <GithubOutlined />
         </a>
@@ -32,6 +33,7 @@ export class Footer extends Component {
           href="https://www.facebook.com/coolvaibhavsethia"
           className="icons-footer pa2 f3 fw1 pt2 pb1"
           style={{ color: "white" }}
+          target="_blank"
         >
           <FacebookOutlined />
         </a>
@@ -39,6 +41,7 @@ export class Footer extends Component {
           href="https://www.instagram.com/vaibhav_9_8/"
           className="icons-footer pa2 f3 fw1 pt2 pb1"
           style={{ color: "white" }}
+          target="_blank"
         >
           <InstagramOutlined />
         </a>
@@ -46,6 +49,7 @@ export class Footer extends Component {
           href="https://www.linkedin.com/in/vaibhav-sethia-4711b8145/"
           className="icons-footer pa2 f3 fw1 pt2 pb1"
           style={{ color: "white" }}
+          target="_blank"
         >
           <LinkedinOutlined />
         </a>
@@ -53,6 +57,7 @@ export class Footer extends Component {
           href="https://medium.com/@vaibhavsethia1998"
           className="icons-footer pa2 f3 fw1 pt2 pb1"
           style={{ color: "white" }}
+          target="_blank"
         >
           <MediumOutlined />
         </a>
