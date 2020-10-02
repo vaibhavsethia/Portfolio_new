@@ -27,25 +27,25 @@ export const Skills_1 = [
     Align: "TopRight",
   },
   {
+    Name: "Git & Github",
+    Percent: "75",
+    Color: "#27C2BB",
+    Align: "BottomLeft",
+  },
+  {
     Name: "Go",
     Percent: "65",
     Color: "#34B4AE",
-    Align: "TopRight",
-  },
-  {
-    Name: "Python",
-    Percent: "60",
-    Color: "#2DBFB8",
     Align: "TopRight",
   },
 ];
 
 export const Skills_2 = [
   {
-    Name: "Apollo",
+    Name: "Python",
     Percent: "60",
-    Color: "#27C2BB",
-    Align: "BottomLeft",
+    Color: "#2DBFB8",
+    Align: "TopRight",
   },
   {
     Name: "Shell",

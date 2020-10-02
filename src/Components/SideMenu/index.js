@@ -25,11 +25,13 @@ export class SideMenu extends Component {
   }
 
   ScrollToProjects() {
-    document.getElementById('projects-section').scrollIntoView();
+    window.location.href = "/Portfolio_new";
+    document.getElementById("projects-section").scrollIntoView();
   }
 
   ScrollToTimeline() {
-    document.getElementById('timeline-section').scrollIntoView();
+    window.location.href = "/Portfolio_new";
+    document.getElementById("timeline-section").scrollIntoView();
   }
 
   render() {
@@ -62,16 +64,18 @@ export class SideMenu extends Component {
             </Fade>
             <Link to="/Portfolio_new/" />
           </Menu.Item>
-          <Menu.Item onClick={this.ScrollToProjects} key="2" icon={<BarsOutlined />}>
+          {/* <Menu.Item key="2" icon={<BarsOutlined />}>
             <Fade left cascade>
               <span className="menu-list">PROJECTS</span>
             </Fade>
+            <Link to="/Portfolio_new/" />
           </Menu.Item>
-          <Menu.Item onClick={this.ScrollToTimeline} key="3" icon={<CodeOutlined />}>
+          <Menu.Item key="3" icon={<CodeOutlined />}>
             <Fade left cascade>
               <span className="menu-list">TIMELINE</span>
             </Fade>
-          </Menu.Item>
+            <Link to="/Portfolio_new/" />
+          </Menu.Item> */}
           <Menu.Item key="4" icon={<FormOutlined />}>
             <Fade left cascade>
               <span className="menu-list">BLOG</span>
@@ -86,7 +90,13 @@ export class SideMenu extends Component {
           </Menu.Item>
           <Menu.Item key="6" icon={<DownloadOutlined />}>
             <Fade left cascade>
-              <a href="https://drive.google.com/file/d/1TicFxaBDh601g84aMTE8OS7dsG4tQAdB/view?usp=sharing" className="menu-list">RESUME</a>
+              <a
+                href="https://drive.google.com/file/d/1TicFxaBDh601g84aMTE8OS7dsG4tQAdB/view?usp=sharing"
+                className="menu-list"
+                target="_blank"
+              >
+                RESUME
+              </a>
             </Fade>
           </Menu.Item>
         </Menu>

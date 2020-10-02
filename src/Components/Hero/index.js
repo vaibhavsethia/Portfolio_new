@@ -67,7 +67,7 @@ export class Hero extends Component {
           </Fade>
           <Link to="/Portfolio_new/">
             <Button onClick={this.props.View}>
-              <span className="button-text">View My Work</span>
+              <span className="button-text">View my work</span>
               <RightOutlined className="button-right" />
               <DownOutlined className="button-down" />
             </Button>
