@@ -14,6 +14,7 @@ import { Divider } from "antd";
 import ImportContactsOutlinedIcon from "@material-ui/icons/ImportContactsOutlined";
 import WorkOutlineOutlinedIcon from "@material-ui/icons/WorkOutlineOutlined";
 import Fade from "react-reveal/Fade";
+import Zoom from 'react-reveal/Zoom';
 
 import "./Timeline.css";
 
@@ -42,9 +43,11 @@ export default function CustomizedTimeline() {
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot className="timeline-icon">
-            <WorkOutlineOutlinedIcon />
-          </TimelineDot>
+          <Zoom top>
+            <TimelineDot className="timeline-icon">
+              <WorkOutlineOutlinedIcon />
+            </TimelineDot>
+          </Zoom>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -79,9 +82,11 @@ export default function CustomizedTimeline() {
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot className="timeline-icon">
-            <LaptopMacIcon />
-          </TimelineDot>
+          <Zoom top>
+            <TimelineDot className="timeline-icon">
+              <LaptopMacIcon />
+            </TimelineDot>
+          </Zoom>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -115,9 +120,11 @@ export default function CustomizedTimeline() {
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot className="timeline-icon">
-            <LaptopMacIcon />
-          </TimelineDot>
+          <Zoom top>
+            <TimelineDot className="timeline-icon">
+              <LaptopMacIcon />
+            </TimelineDot>
+          </Zoom>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -150,9 +157,11 @@ export default function CustomizedTimeline() {
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot className="timeline-icon">
-            <LaptopMacIcon />
-          </TimelineDot>
+          <Zoom top>
+            <TimelineDot className="timeline-icon">
+              <LaptopMacIcon />
+            </TimelineDot>
+          </Zoom>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -192,9 +201,11 @@ export default function CustomizedTimeline() {
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot className="timeline-icon">
-            <ImportContactsOutlinedIcon />
-          </TimelineDot>
+          <Zoom top>
+            <TimelineDot className="timeline-icon">
+              <ImportContactsOutlinedIcon />
+            </TimelineDot>
+          </Zoom>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -228,9 +239,11 @@ export default function CustomizedTimeline() {
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot className="timeline-icon">
-            <ImportContactsOutlinedIcon />
-          </TimelineDot>
+          <Zoom top>
+            <TimelineDot className="timeline-icon">
+              <ImportContactsOutlinedIcon />
+            </TimelineDot>
+          </Zoom>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -271,9 +284,11 @@ export default function CustomizedTimeline() {
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot className="timeline-icon">
-            <ImportContactsOutlinedIcon />
-          </TimelineDot>
+          <Zoom top>
+            <TimelineDot className="timeline-icon">
+              <ImportContactsOutlinedIcon />
+            </TimelineDot>
+          </Zoom>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -310,9 +325,11 @@ export default function CustomizedTimeline() {
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot className="timeline-icon">
-            <ImportContactsOutlinedIcon />
-          </TimelineDot>
+          <Zoom top>
+            <TimelineDot className="timeline-icon">
+              <ImportContactsOutlinedIcon />
+            </TimelineDot>
+          </Zoom>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
