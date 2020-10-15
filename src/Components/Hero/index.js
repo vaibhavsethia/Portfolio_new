@@ -17,7 +17,7 @@ export class Hero extends Component {
           params={{
             particles: {
               number: {
-                value: 200,
+                value: 300,
                 density: {
                   enable: true,
                   value_area: 1500,
@@ -29,7 +29,7 @@ export class Hero extends Component {
               },
               move: {
                 direction: "right",
-                speed: 0.5,
+                speed: 0.6,
               },
               size: {
                 value: 1,

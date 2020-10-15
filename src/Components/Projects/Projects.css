@@ -54,7 +54,7 @@
   cursor: pointer;
 }
 .know-more {
-  width: 100px !important;
+  width: 110px !important;
   height: 30px !important;
   font-family: "Work Sans", sans-serif;
   font-size: 14px !important;
@@ -63,6 +63,7 @@
   position: absolute !important;
   bottom: -70%;
   right: 29%;
+  padding-right: 15px !important;
 }
 .card-title {
   font-family: "Work Sans", sans-serif;
