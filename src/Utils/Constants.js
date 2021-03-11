@@ -33,8 +33,8 @@ export const Skills_1 = [
     Align: "BottomLeft",
   },
   {
-    Name: "Go",
-    Percent: "65",
+    Name: "Cloud Computing",
+    Percent: "70",
     Color: "#34B4AE",
     Align: "TopRight",
   },
@@ -42,13 +42,13 @@ export const Skills_1 = [
 
 export const Skills_2 = [
   {
-    Name: "Python",
-    Percent: "60",
+    Name: "Go",
+    Percent: "65",
     Color: "#2DBFB8",
     Align: "TopRight",
   },
   {
-    Name: "Shell",
+    Name: "Python",
     Percent: "60",
     Color: "#25CEC6",
     Align: "BottomLeft",

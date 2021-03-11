@@ -24,7 +24,7 @@ export class BlogCard extends Component {
           >
             <div className="blog-title pa3 tr">{this.props.Title}</div>
             <div className="tr blog-text pr3 pl3">{this.props.Desc}</div>
-            <Button className="mb3" target="_blank" href={this.props.Link}>
+            <Button disabled={this.props.Link === ""} className="mb3" target="_blank" href={this.props.Link}>
               <MediumOutlined className="blog-icon" />
               Read More
             </Button>

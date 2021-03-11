@@ -6,6 +6,9 @@ import SongOfTheMonth from "./SongOfTheMonth.mp3";
 import AlbumCover from "./September.jpg";
 import BlogCard from "./BlogCard";
 import Blog_1 from "../../Images/Blog/Blog_1.jpg";
+import Blog_2 from "../../Images/Blog/Blog_2.jpg";
+import Blog_3 from "../../Images/Blog/Blog_3.png";
+
 
 export class Blog extends Component {
   render() {
@@ -51,6 +54,51 @@ export class Blog extends Component {
                   with the Victory provided ‘material’ theme.
                 </p>
               </div>
+            }
+          />
+        </Row>
+        <Row justify="center">
+          <BlogCard
+            Image={Blog_2}
+            Link="https://vaibhavsethia1998.medium.com/creating-a-custom-authenticator-using-aws-amplify-cognito-and-react-js-60f24d1c84aa"
+            Title="Creating a Custom Authenticator using AWS Amplify, Cognito and React.js"
+            Desc={
+              <div>
+              <p>
+                AWS Amplify includes a wide variety of open-source libraries and drag-and-drop UI 
+                components developers can use as building blocks for their apps. It also has a built-in 
+                CLI you can use to build your backend. One of the pre-built components in Amplify is 
+                Authenticator which we are gonna use for making the Authentication system.
+              </p>
+              <p>
+                This is the simplest and most efficient way to use AWS Authenticator and 
+                Cognito for a fully customizable authentication system. For the sake of keeping the 
+                code clean and the article small, a simple CSS has been used although it can be 
+                integrated with any UI or CSS framework.
+              </p>
+            </div>
+            }
+          />
+          <BlogCard
+            Image={Blog_3}
+            Link=""
+            Title="How to use Twitch API endpoints with React"
+            Desc={
+              <div>
+              <p>
+                The Twitch API provides tools for developing integrations with Twitch. 
+                With this you can get access to Twitch's user and viewer data along with API 
+                endpoints dedicated to accurate fetch results.
+              </p>
+              <p>
+              Some of the endpoints we are going to use are: 
+              <br />
+              1. Get Games<br />
+              2. Get Top Streams<br />
+              3. Get User<br />
+              4. Create User Follow<br />
+              </p>
+            </div>
             }
           />
         </Row>
