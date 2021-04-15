@@ -23,7 +23,14 @@ export class BlogCard extends Component {
             }
           >
             <div className="blog-title pa3 tr">{this.props.Title}</div>
-            <div className="tr blog-text pr3 pl3">{this.props.Desc}</div>
+            <div className="tr blog-text pr3 pl3">
+              <p>
+                {this.props.Para1}
+              </p>
+              <p>
+                {this.props.Para2}
+              </p>
+            </div>
             <Button disabled={this.props.Link === ""} className="mb3" target="_blank" href={this.props.Link}>
               <MediumOutlined className="blog-icon" />
               Read More
