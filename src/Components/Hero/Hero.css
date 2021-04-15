@@ -38,6 +38,7 @@
 }
 .button-right{
   color: #bebebe !important;
+  vertical-align: middle !important;
 }
 .ant-btn:hover .button-right{
   display: none !important;

@@ -80,8 +80,8 @@
   color: #3f918d !important;
 }
 .anticon.anticon-right{
-  vertical-align: 2px !important;
-  color: #3f918d !important;
+  vertical-align: 2px;
+  color: #3f918d;
 }
 .ant-pagination-item,
 .ant-pagination-item:hover,
