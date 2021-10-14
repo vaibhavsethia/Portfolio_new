@@ -18,25 +18,25 @@ export const Skills_1 = [
     Align: "TopLeft",
   },
   {
-    Name: "UI Design",
-    Percent: "75",
+    Name: "Git & Github",
+    Percent: "85",
+    Color: "#27C2BB",
+    Align: "BottomLeft",
+  },
+  {
+    Name: "ETL Jobs ",
+    Percent: "80",
     Color: "#3BA39E",
     Align: "TopLeft",
   },
   {
-    Name: "Javascript",
+    Name: "Autosys",
     Percent: "75",
     Color: "#38AEA8",
     Align: "TopRight",
   },
   {
-    Name: "Git & Github",
-    Percent: "75",
-    Color: "#27C2BB",
-    Align: "BottomLeft",
-  },
-  {
-    Name: "Cloud Computing",
+    Name: "SQL",
     Percent: "70",
     Color: "#34B4AE",
     Align: "TopRight",
@@ -45,11 +45,44 @@ export const Skills_1 = [
 
 export const Skills_2 = [
   {
+    Name: "Teradata",
+    Percent: "70",
+    Color: "#34B4AE",
+    Align: "TopRight",
+  },
+  {
+    Name: "UI Design",
+    Percent: "70",
+    Color: "#3BA39E",
+    Align: "TopLeft",
+  },
+  {
+    Name: "System Design",
+    Percent: "70",
+    Color: "#34B4AE",
+    Align: "TopRight",
+  },
+  {
+    Name: "Javascript",
+    Percent: "65",
+    Color: "#38AEA8",
+    Align: "TopRight",
+  },
+  {
+    Name: "AWS",
+    Percent: "65",
+    Color: "#34B4AE",
+    Align: "TopRight",
+  },
+  {
     Name: "Go",
     Percent: "65",
     Color: "#2DBFB8",
     Align: "TopRight",
   },
+];
+
+export const Skills_3 = [
   {
     Name: "Python",
     Percent: "60",
@@ -81,6 +114,7 @@ export const Skills_2 = [
     Align: "BottomRight",
   },
 ];
+
 
 export const Projects_All = [
   {
