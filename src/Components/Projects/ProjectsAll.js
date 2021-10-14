@@ -23,6 +23,8 @@ import VWO_1 from "../../Images/Projects/VWO_1.jpg";
 import VWO_3 from "../../Images/Projects/VWO_3.jpg";
 import VWO_4 from "../../Images/Projects/VWO_4.png";
 import VWO_5 from "../../Images/Projects/VWO_5.png";
+import Megamine_1 from "../../Images/Projects/Megamine_1.png";
+import Megamine_2 from "../../Images/Projects/Megamine_2.png";
 import { Row } from "antd";
 import Flip from "react-reveal/Flip";
 import Pulse from "react-reveal/Pulse";
@@ -39,6 +41,7 @@ const Image_All = [
   PORT_1,
   PVP_1,
   BKRD_1,
+  Megamine_2
 ];
 const ModalImage_All = [
   VWO_1,
@@ -52,6 +55,7 @@ const ModalImage_All = [
   PORT_2,
   PVP_2,
   BKRD_2,
+  Megamine_1
 ];
 
 export class ProjectsAll extends Component {
@@ -164,7 +168,7 @@ export class ProjectsAll extends Component {
               Github={"https://github.com/vaibhavsethia/PvP_Battle"}
             />
           </Flip>
-          <Flip right>
+          <Flip bottom>
             <ProjectCard
               Name={"Background Generator"}
               Desc={"A React based data analysis tool to visualize data into multiple types of graphs. Graphs used are based on Victory API for data visualization. Respective Website has Upto 10 types of graphs like Bar graphs, Stcaked graphs, Pie charts, Radial graphs, Line graphs, Area graphs, etc."}
@@ -172,6 +176,16 @@ export class ProjectsAll extends Component {
               ModalImage={ModalImage_All[10]}
               DisabledButton={false}
               Github={"https://github.com/vaibhavsethia/BackGround-Generator"}
+            />
+          </Flip>
+          <Flip right>
+            <ProjectCard
+              Name={"Megamine"}
+              Desc={"A Multi-page ReactJs based website made using Ant Design for frontend and AWS, Twitch API, Google API, Stripe API, etc for backend services. It used Technologies like ReactJs, Ant Design, Tachyons, NodeJs, Figma, React-Reveal, AWS, Postman, REST API, GraphQl, NPM and many other packages for small tasks."}
+              Image={Image_All[11]}
+              ModalImage={ModalImage_All[11]}
+              DisabledButton={false}
+              Github={"https://www.megamine.net/"}
             />
           </Flip>
         </Row>

@@ -172,6 +172,12 @@ export const Projects_React = [
     Github: "https://github.com/vaibhavsethia/JW_Web_antD",
   },
   {
+    Name: "Megamine",
+    Desc: Desc,
+    DisabledButton: false,
+    Github: "https://www.megamine.net/",
+  },
+  {
     Name: "Template Portfolio Site",
     Desc: Desc,
     DisabledButton: false,

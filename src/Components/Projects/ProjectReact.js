@@ -13,13 +13,15 @@ import BKRD_2 from "../../Images/Projects/BKRD_2.png";
 import DASH_2 from "../../Images/Projects/DASH_2.png";
 import DV_2 from "../../Images/Projects/DV_2.png";
 import JPW_2 from "../../Images/Projects/JPW_2.png";
+import Megamine_1 from "../../Images/Projects/Megamine_1.png";
+import Megamine_2 from "../../Images/Projects/Megamine_2.png";
 import JW_2 from "../../Images/Projects/JW_2.png";
 import PORT_2 from "../../Images/Projects/PORT_2.png";
 import { Row } from "antd";
 import Flip from "react-reveal/Flip";
 
-const Image_React = [JPW_1, JW_1, ADV_1, PORT_1, DASH_1, DV_1, BKRD_1];
-const ModalImage_React = [JPW_2, JW_2, ADV_2, PORT_2, DASH_2, DV_2, BKRD_2];
+const Image_React = [JPW_1, JW_1, ADV_1, PORT_1, DASH_1, DV_1, BKRD_1, Megamine_2];
+const ModalImage_React = [JPW_2, JW_2, ADV_2, PORT_2, DASH_2, DV_2, BKRD_2, Megamine_1];
 
 export class ProjectReact extends Component {
   render() {
@@ -38,6 +40,16 @@ export class ProjectReact extends Component {
           </Flip>
           <Flip top>
             <ProjectCard
+              Name={"Megamine"}
+              Desc={"A Multi-page ReactJs based website made using Ant Design for frontend and AWS, Twitch API, Google API, Stripe API, etc for backend services. It used Technologies like ReactJs, Ant Design, Tachyons, NodeJs, Figma, React-Reveal, AWS, Postman, REST API, GraphQl, NPM and many other packages for small tasks."}
+              Image={Image_React[7]}
+              ModalImage={ModalImage_React[7]}
+              DisabledButton={false}
+              Github={"https://www.megamine.net/"}
+            />
+          </Flip>
+          <Flip top>
+            <ProjectCard
               Name={"Template Portfolio Site"}
               Desc={"A Multi-page React based website template made using HTML, CSS and Js for frontend implementation and Figma for design preparation. It has a bug free  transitions even on small screen devices like smartphones and is completely responsive and reactive with fast animations for immersive UI."}
               Image={Image_React[1]}
@@ -46,7 +58,7 @@ export class ProjectReact extends Component {
               Github={"https://github.com/vaibhavsethia/JP_Website"}
             />
           </Flip>
-          <Flip top>
+          <Flip right>
             <ProjectCard
               Name={"Automated Document Verifier"}
               Desc={"React based Web-App to present Python backend for automating the task of document verification using Image Processing and Layout matching using OpenCV. Some of the documents successfully verified were PAN Card, 10th Marksheet, 12th Marksheet with checks to validate the data from database also. It used technologies like React, Tachyons, Python, Express, OpenCv, etc. "}
@@ -56,7 +68,9 @@ export class ProjectReact extends Component {
               Github={""}
             />
           </Flip>
-          <Flip right>
+        </Row>
+        <Row justify="center">
+        <Flip left>
             <ProjectCard
               Name={"My Portfolio - Implementation One"}
               Desc={"A Single-page React based implementation of my first ever portfolio made by using styles from colorlib library. With sections like projects, skills and education to provide complete information about me to the viewer. What you are currently viewing is the Second implementation of my portfolio to make it better looking, Reactive and Responsive."}
@@ -66,9 +80,7 @@ export class ProjectReact extends Component {
               Github={"https://github.com/vaibhavsethia/Myportfolio"}
             />
           </Flip>
-        </Row>
-        <Row justify="center">
-          <Flip left>
+          <Flip bottom>
             <ProjectCard
               Name={"Virtual Dashboard"}
               Desc={"A React based Virtual Dashboard to demonstrate data for Airport Authority of India in order to provide a visual tool to keep a record of the footfall among various amneties and shops around the top 7 airports of India. Made with an idea of improving layout of future airports made in India to utilize space more efficiently. ( Project is Incomplete )"}
