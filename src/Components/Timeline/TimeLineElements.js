@@ -39,7 +39,81 @@ export default function CustomizedTimeline() {
             variant="body2"
             color="textSecondary"
           >
-            May, 2020 - Present
+            June, 20201 - Present
+          </Typography>
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <Zoom top>
+            <TimelineDot className="timeline-icon">
+              <WorkOutlineOutlinedIcon />
+            </TimelineDot>
+          </Zoom>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Fade right>
+            <Paper elevation={3} className={classes.paper}>
+              <Typography
+                className="timeline-bigtext"
+                variant="h6"
+                component="h1"
+              >
+                <span>Morgan Stanley</span>
+                <Divider type="vertical" /> <span>Software Developer</span>
+              </Typography>
+              <Typography className="timeline-smalltext">
+                Working on live projects using On-premise softwares. Creating ETL Jobs using SQL, Teradata, and OpsConsole and automating them using Autosys. Working with Migration of objects and writing shell scripts to automate the process.
+              </Typography>
+            </Paper>
+          </Fade>
+        </TimelineContent>
+      </TimelineItem>
+
+      <TimelineItem>
+        <TimelineOppositeContent>
+          <Typography
+            className="timeline-date"
+            variant="body2"
+            color="textSecondary"
+          >
+            June, 2021 - Present
+          </Typography>
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <Zoom top>
+            <TimelineDot className="timeline-icon">
+              <WorkOutlineOutlinedIcon />
+            </TimelineDot>
+          </Zoom>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Fade right>
+            <Paper elevation={3} className={classes.paper}>
+              <Typography
+                className="timeline-bigtext"
+                variant="h6"
+                component="h1"
+              >
+                <span>Wiley Mthree</span>
+                <Divider type="vertical" /> <span>Junior Associate</span>
+              </Typography>
+              <Typography className="timeline-smalltext">
+                Completed training for Python, Cloud Computing, Databases, SQL and Shell scripting
+              </Typography>
+            </Paper>
+          </Fade>
+        </TimelineContent>
+      </TimelineItem>
+
+      <TimelineItem>
+        <TimelineOppositeContent>
+          <Typography
+            className="timeline-date"
+            variant="body2"
+            color="textSecondary"
+          >
+            June, 2021 - Present
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
