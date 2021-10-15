@@ -34,6 +34,10 @@ export class SideMenu extends Component {
     document.getElementById("timeline-section").scrollIntoView();
   }
 
+  GetSelectedKeys(){
+      
+  }
+
   render() {
     var wide, nameClass, tagClass;
     if (this.props.collapsed) {
@@ -91,7 +95,7 @@ export class SideMenu extends Component {
           <Menu.Item key="6" icon={<DownloadOutlined />}>
             <Fade left cascade>
               <a
-                href="https://drive.google.com/file/d/1hFvwZyQ3TnA85LYx3V5QdMWVQmUcvFX-/view?usp=sharing"
+                href="https://drive.google.com/file/d/13TmIqNRcaarPx0N_rit4CXuyxkekZB_O/view?usp=sharing"
                 className="menu-list"
                 target="_blank"
               >
