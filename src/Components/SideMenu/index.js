@@ -95,7 +95,7 @@ export class SideMenu extends Component {
           <Menu.Item key="6" icon={<DownloadOutlined />}>
             <Fade left cascade>
               <a
-                href="https://drive.google.com/file/d/13TmIqNRcaarPx0N_rit4CXuyxkekZB_O/view?usp=sharing"
+                href="https://drive.google.com/file/d/1vo3hALycCF6vYyQC8B5S8FrnKnop_WZW/view?usp=sharing"
                 className="menu-list"
                 target="_blank"
               >
